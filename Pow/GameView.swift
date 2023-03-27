@@ -107,7 +107,7 @@ struct GameView: View {
                     Spacer()
                 }
                 .frame(width: 320, height: 250)
-                .background(.white)
+                .background(Color(UIColor.systemBackground))
                 .cornerRadius(25)
             }
         }

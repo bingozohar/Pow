@@ -86,10 +86,10 @@
 				AC3CC2FE29D0E58A004DA771 /* Info.plist */,
 				AC3CC2F929D0E414004DA771 /* Models */,
 				AC870C8F29CFCA2F0095DAE2 /* GameView.swift */,
-				ACCB6BC929D1DF950077E6B5 /* PowButtonView.swift */,
 				ACCB6BC729D1DDDE0077E6B5 /* InkShape.swift */,
 				ACCB6BC529D1DD2F0077E6B5 /* PowUtils.swift */,
 				AC870C8D29CFCA2F0095DAE2 /* PowApp.swift */,
+				ACCB6BC929D1DF950077E6B5 /* PowButtonView.swift */,
 				ACCB6BBB29D1C85A0077E6B5 /* PowHeaderView.swift */,
 				ACCB6BBD29D1CBC60077E6B5 /* MiniGameView.swift */,
 				ACCB6BBF29D1CC010077E6B5 /* MiniGameResponseView.swift */,
@@ -325,6 +325,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pow Pow Pow !!!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -357,6 +358,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pow Pow Pow !!!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;

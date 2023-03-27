@@ -40,7 +40,8 @@ struct MiniGameView: View {
                     Spacer()
                 }
                 if remainingTime > 0 && responseGiven == false {
-                    Text("Remaining Time: \(remainingTime)").fontShakaPow(20)
+                    Text("Remaining Time: \(remainingTime)")
+                        .fontShakaPow(20)
                 }
                 else {
                     Text(" ")
@@ -48,7 +49,7 @@ struct MiniGameView: View {
                 Spacer()
             }
             .frame(width: 320, height: 250)
-            .background(.white)
+            .background(Color(UIColor.systemBackground))
             .cornerRadius(15)
             .onReceive(timer) { _ in
                 remainingTime -= 1

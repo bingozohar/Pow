@@ -11,7 +11,7 @@ import SwiftUI
 struct PowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }

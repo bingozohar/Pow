@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3CC2FB29D0E41D004DA771 /* MinigameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CC2FA29D0E41D004DA771 /* MinigameModel.swift */; };
+		AC3CC2FD29D0E464004DA771 /* Minigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CC2FC29D0E464004DA771 /* Minigame.swift */; };
 		AC870C8E29CFCA2F0095DAE2 /* PowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC870C8D29CFCA2F0095DAE2 /* PowApp.swift */; };
-		AC870C9029CFCA2F0095DAE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC870C8F29CFCA2F0095DAE2 /* ContentView.swift */; };
+		AC870C9029CFCA2F0095DAE2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC870C8F29CFCA2F0095DAE2 /* GameView.swift */; };
 		AC870C9229CFCA300095DAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC870C9129CFCA300095DAE2 /* Assets.xcassets */; };
 		AC870C9529CFCA300095DAE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC870C9429CFCA300095DAE2 /* Preview Assets.xcassets */; };
+		AC870C9C29D07B380095DAE2 /* OperationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC870C9B29D07B380095DAE2 /* OperationEnum.swift */; };
+		ACCB6BBC29D1C85A0077E6B5 /* PowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BBB29D1C85A0077E6B5 /* PowHeaderView.swift */; };
+		ACCB6BBE29D1CBC60077E6B5 /* MiniGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BBD29D1CBC60077E6B5 /* MiniGameView.swift */; };
+		ACCB6BC029D1CC010077E6B5 /* MiniGameResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BBF29D1CC010077E6B5 /* MiniGameResponseView.swift */; };
+		ACCB6BC229D1D8320077E6B5 /* AvailableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BC129D1D8320077E6B5 /* AvailableFonts.swift */; };
+		ACCB6BC429D1DAAB0077E6B5 /* Shaka Pow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACCB6BC329D1D9210077E6B5 /* Shaka Pow.ttf */; };
+		ACCB6BC629D1DD2F0077E6B5 /* PowUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BC529D1DD2F0077E6B5 /* PowUtils.swift */; };
+		ACCB6BC829D1DDDE0077E6B5 /* InkShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BC729D1DDDE0077E6B5 /* InkShape.swift */; };
+		ACCB6BCA29D1DF950077E6B5 /* PowButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB6BC929D1DF950077E6B5 /* PowButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3CC2FA29D0E41D004DA771 /* MinigameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameModel.swift; sourceTree = "<group>"; };
+		AC3CC2FC29D0E464004DA771 /* Minigame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigame.swift; sourceTree = "<group>"; };
+		AC3CC2FE29D0E58A004DA771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC870C8A29CFCA2F0095DAE2 /* Pow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC870C8D29CFCA2F0095DAE2 /* PowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowApp.swift; sourceTree = "<group>"; };
-		AC870C8F29CFCA2F0095DAE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC870C8F29CFCA2F0095DAE2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		AC870C9129CFCA300095DAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC870C9429CFCA300095DAE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC870C9B29D07B380095DAE2 /* OperationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationEnum.swift; sourceTree = "<group>"; };
+		ACCB6BBB29D1C85A0077E6B5 /* PowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowHeaderView.swift; sourceTree = "<group>"; };
+		ACCB6BBD29D1CBC60077E6B5 /* MiniGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameView.swift; sourceTree = "<group>"; };
+		ACCB6BBF29D1CC010077E6B5 /* MiniGameResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameResponseView.swift; sourceTree = "<group>"; };
+		ACCB6BC129D1D8320077E6B5 /* AvailableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableFonts.swift; sourceTree = "<group>"; };
+		ACCB6BC329D1D9210077E6B5 /* Shaka Pow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shaka Pow.ttf"; sourceTree = "<group>"; };
+		ACCB6BC529D1DD2F0077E6B5 /* PowUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowUtils.swift; sourceTree = "<group>"; };
+		ACCB6BC729D1DDDE0077E6B5 /* InkShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkShape.swift; sourceTree = "<group>"; };
+		ACCB6BC929D1DF950077E6B5 /* PowButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3CC2F929D0E414004DA771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CC2FA29D0E41D004DA771 /* MinigameModel.swift */,
+				AC3CC2FC29D0E464004DA771 /* Minigame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AC870C8129CFCA2F0095DAE2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +83,19 @@
 		AC870C8C29CFCA2F0095DAE2 /* Pow */ = {
 			isa = PBXGroup;
 			children = (
+				AC3CC2FE29D0E58A004DA771 /* Info.plist */,
+				AC3CC2F929D0E414004DA771 /* Models */,
+				AC870C8F29CFCA2F0095DAE2 /* GameView.swift */,
+				ACCB6BC929D1DF950077E6B5 /* PowButtonView.swift */,
+				ACCB6BC729D1DDDE0077E6B5 /* InkShape.swift */,
+				ACCB6BC529D1DD2F0077E6B5 /* PowUtils.swift */,
 				AC870C8D29CFCA2F0095DAE2 /* PowApp.swift */,
-				AC870C8F29CFCA2F0095DAE2 /* ContentView.swift */,
+				ACCB6BBB29D1C85A0077E6B5 /* PowHeaderView.swift */,
+				ACCB6BBD29D1CBC60077E6B5 /* MiniGameView.swift */,
+				ACCB6BBF29D1CC010077E6B5 /* MiniGameResponseView.swift */,
+				AC870C9B29D07B380095DAE2 /* OperationEnum.swift */,
+				ACCB6BC129D1D8320077E6B5 /* AvailableFonts.swift */,
+				ACCB6BC329D1D9210077E6B5 /* Shaka Pow.ttf */,
 				AC870C9129CFCA300095DAE2 /* Assets.xcassets */,
 				AC870C9329CFCA300095DAE2 /* Preview Content */,
 			);
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCB6BC429D1DAAB0077E6B5 /* Shaka Pow.ttf in Resources */,
 				AC870C9529CFCA300095DAE2 /* Preview Assets.xcassets in Resources */,
 				AC870C9229CFCA300095DAE2 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC870C9029CFCA2F0095DAE2 /* ContentView.swift in Sources */,
+				AC870C9029CFCA2F0095DAE2 /* GameView.swift in Sources */,
+				AC3CC2FB29D0E41D004DA771 /* MinigameModel.swift in Sources */,
+				ACCB6BBE29D1CBC60077E6B5 /* MiniGameView.swift in Sources */,
+				ACCB6BC229D1D8320077E6B5 /* AvailableFonts.swift in Sources */,
 				AC870C8E29CFCA2F0095DAE2 /* PowApp.swift in Sources */,
+				ACCB6BBC29D1C85A0077E6B5 /* PowHeaderView.swift in Sources */,
+				ACCB6BC629D1DD2F0077E6B5 /* PowUtils.swift in Sources */,
+				ACCB6BCA29D1DF950077E6B5 /* PowButtonView.swift in Sources */,
+				AC3CC2FD29D0E464004DA771 /* Minigame.swift in Sources */,
+				ACCB6BC029D1CC010077E6B5 /* MiniGameResponseView.swift in Sources */,
+				ACCB6BC829D1DDDE0077E6B5 /* InkShape.swift in Sources */,
+				AC870C9C29D07B380095DAE2 /* OperationEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +324,14 @@
 				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Pow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +356,14 @@
 				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Pow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
